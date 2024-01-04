@@ -9,7 +9,7 @@ server.use(express.json())
 
 main().catch(err => console.log(err));
 async function main() {
-  await mongoose.connect('mongodb+srv://paurasmore22:PXmkskMQD7MW8ky7@cluster0.r26ghtw.mongodb.net/');
+  await mongoose.connect('');
   console.log("Connected to atlas")
 
 }
